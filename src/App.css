@@ -1,0 +1,8 @@
+.content{
+    margin:60px auto;
+}
+.add-form{
+    margin-bottom: 30px;
+}
+a:hover{ text-decoration: none;
+         color:orange;}
