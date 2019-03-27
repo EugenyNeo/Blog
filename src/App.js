@@ -17,7 +17,6 @@ class App extends Component {
         />
           <div className='container'>
               <div className='content'>
-                  <h1>Latest list</h1>
                   <div className='content'>
                       <Router>
                          <div>

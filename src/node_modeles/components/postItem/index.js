@@ -9,8 +9,8 @@ const PostItem =({title, createdAt, _id, onRemove})=> (
                 </Link>
                 <p>
                     <i>Posted on {createdAt}</i>
-                    <a href='javascript://' onClick={onRemove}> Remove</a>
-                    <Link to={`/post/${_id}/edit`}> Edit</Link>
+                    <a href='javascript://' onClick={onRemove} className='pull-right'> Remove</a>
+                    <Link to={`/post/${_id}/edit`} className='pull-right'> Edit</Link>
                 </p>
             </div>
     )
